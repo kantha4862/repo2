@@ -1,0 +1,8 @@
+[user]
+	name = kantha4862
+	email = 116441860+kantha4862@users.noreply.github.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
